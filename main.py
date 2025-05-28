@@ -5,7 +5,7 @@ import random
 # Initialize pygame
 pygame.init()
 
-# ---------------- CONFIGURATION ----------------
+# CONFIGURATION
 WIDTH, HEIGHT = 800, 600
 BLOCK_SIZE = 20
 FPS = 15
@@ -29,7 +29,7 @@ pygame.display.set_caption('Snake Game - Python Pro Edition')
 clock = pygame.time.Clock()
 
 
-# ---------------- FUNCTIONS ----------------
+#  FUNCTIONS 
 
 def draw_snake(snake_block, snake_list):
     for x in snake_list:
@@ -132,6 +132,6 @@ def game_loop():
     quit()
 
 
-# ---------------- RUN GAME ----------------
+#  RUN GAME 
 if __name__ == "__main__":
     game_loop()
